@@ -13,7 +13,7 @@ object CreativeFlight : Module(
     description = "Allows you to fly with custom speed.",
     tag = ModuleTag.MOVEMENT,
 ) {
-    private val speed by setting("Speed", 0.1f, 0.0f..2.0f, 0.01f)
+    private val speed by setting("Speed", 0.3f, 0.0f..2.0f, 0.01f)
     private var wasFlying = false
 
     init {
